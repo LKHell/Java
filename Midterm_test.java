@@ -57,23 +57,29 @@ public class Midterm_test
 {
     public static void main(String args[])
     {
-        System.out.println("please input R and H :");
+        double r,h,s;
         Scanner in =new Scanner(System.in);
-        double r=in.nextDouble();
-        double h=in.nextDouble();
-        in.close();
+	while(true)
+	{
+		System.out.println("please input R and H :");
+         	
+		r=in.nextDouble();
+         	h=in.nextDouble();
+		
 		I aa =new A();
-        try
-        {
-            double s=aa.shadow(r,h);
+		try
+		{
+			s=aa.shadow(r,h);
 			String double_str=String.format("%.4f",s);
+			/* ----- */
 			System.out.println("S is "+double_str);
-        }
-        catch (myexception y)
-        {
-            System.out.println(y.getmessage());
-        }
-
-       
+			in.close();
+			break;
+		}
+		catch (myexception y)
+		{
+		    System.out.println(y.getmessage());
+		}
+	}
     }
 }
