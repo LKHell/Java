@@ -9,24 +9,24 @@ public class lab4
     {
         
         int n;
-        byte b[]=new byte[25];
+        byte b[]=new byte[2];
         String message;
-        System.out.println("input the name File name ")
+        System.out.println("input the name File name ");
         Scanner input = new Scanner(System.in);
         message=input.next();
-        input.close;
+        input.close();
         message=message+".txt";
         try
         {
-            File readFile =new File ("hello.txt");
-            //File readFile = new File(message);
-            FileinputStream in=new FileinputStream(readFile);
-            while ((n=in.read(b,0,25))!=-1)
+            //File readFile =new File ("hello.txt");
+            File readFile = new File(message);
+            FileInputStream in=new FileInputStream(readFile);
+            while ((n=in.read(b,0,2))!=-1)
             {
-                String s=new String(tom,0,n);
+                String s=new String(b,0,n);
                 System.out.print(s);
             }
-            in.close;
+            in.close();
             
         }
         catch(IOException e)
