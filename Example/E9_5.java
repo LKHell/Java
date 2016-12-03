@@ -4,8 +4,8 @@ public class E9_5
 {
     public static void main(String args[])
     {
-        File file_read=new File("hello.txt"),
-             file_write=new File("test9_5_2.txt");
+        File file_read=new File("file_read.txt"),
+             file_write=new File("file_write.txt");
         try{
             FileReader   reader  =new FileReader(file_read);
             BufferedReader reader_buffer=new BufferedReader(reader);
@@ -24,10 +24,10 @@ public class E9_5
 
             write_buffer.flush();
             write_buffer.close();
-            write_buffer.close();
+            writer.close();
 
             
-            reader=new FileReader(file_read);
+            reader=new FileReader(file_write);
             reader_buffer=new BufferedReader(reader);
             while ((s=reader_buffer.readLine())!=null)
             {
