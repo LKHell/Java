@@ -16,15 +16,15 @@ for Java study
  * 读取txt内容   
 
 ## Example: JAVA大学实用教程（第三版） 
-* ### Chapter 9
+###  Chapter 9
   * 1  File 判断文件类型，显示文件名和大小，删除第一个文件
   * 3  FileInputStream, FileOutputStream  将内容写入txt，读取
   * 4  FileReader, FileWriter 
   * 5  BufferedReader, BufferedWriter  
     
 
-###
-* ### Chapter 10
+##
+### Chapter 10
   * 01  JFrame窗口
   * 02  JmenuBar  JMenu JMenuItem 菜单窗口
   * 06   BoxLayout 3个平行box 
