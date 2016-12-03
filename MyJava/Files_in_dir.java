@@ -22,7 +22,11 @@ public class Files_in_dir
                             /* .listFiles   */
         
         for (int i=0;i<file_list.length;i++)
-            System.out.printf("\n file name: %s ,Size: %d",file_list[i].getName(),file_list[i].length());          
+            System.out.printf("\n file name: %s ,Size: %d",file_list[i].getName(),file_list[i].length()); 
+
+        /*  file_list.length is the total number of file
+         *  file_list[i].length() is the Size of file 
+         *  .getName() is the name of file */        
             
     }
 }
