@@ -17,21 +17,24 @@ public class E9_1
 {
     public static void main(String args[])
     {
-        File dir=new File("/Users/likunhao/java/test");   /*  for my  macbook  */
+        //File dir=new File("/Users/likunhao/java/test");   /*  for macOS    */
+        File dir=new File ("/Users/37238/java");            /*  for Windows  */
 
-        FileAccept acceptCondition=new FileAccept("java"); /*  select the file endsWith 'java' */
+        FileAccept acceptCondition=new FileAccept("java"); /*  set file type = 'java' */
        
-        File fileName[]=dir.listFiles(acceptCondition);
+        File fileName[]=dir.listFiles(acceptCondition);/*  select the file endsWith 'java' */
         for(int i=0;i<fileName.length;i++)
         {
             System.out.printf("\n File Name :%s, Size: %d",fileName[i].getName(),fileName[i].length());
         }
         boolean boo=false;
-        
-        if(fileName.length>0)
-            boo=fileName[0].delete();
-        if(boo)
-            System.out.println("\n File Name:"+fileName[0].getName()+" ,deleted");    
+
+        /* use for delete file  */        
+        // if(fileName.length>0)
+        //     boo=fileName[0].delete();
+
+        // if(boo)
+        //     System.out.println("\n File Name:"+fileName[0].getName()+" ,deleted");    
         
     }
 
