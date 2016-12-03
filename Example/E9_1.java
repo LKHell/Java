@@ -17,9 +17,9 @@ public class E9_1
 {
     public static void main(String args[])
     {
-        //File dir=new File("/Users/likunhao/java/test");   /*  for macOS    */
-        File dir=new File ("/Users/37238/java");            /*  for Windows  */
-
+        
+        File dir=new File ("/Users/__your account_/java");            /*  for Windows  */
+                            /* or C:/users/xxx/zzz  */
         FileAccept acceptCondition=new FileAccept("java"); /*  set file type = 'java' */
        
         File fileName[]=dir.listFiles(acceptCondition);/*  select the file endsWith 'java' */
