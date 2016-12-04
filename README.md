@@ -27,7 +27,7 @@ for Java study
 ### Chapter 10
   * 01  JFrame窗口
   * 02  JmenuBar JMenu JMenuItem 菜单窗口
-  * 06  BoxLayout 3个平行box 
+  * 06  BoxLayout 3个平行box createVertucalBox,createHorizontalBox
   * 08  JLabel JTextField 传递信息回终端 ActionListener in 2 class
   * 09  JPasswordField 密码框返回给文本框，文本框返回给标题 ActionListener in same class
   * 10  ActionListener in function
@@ -44,9 +44,35 @@ for Java study
 
 ## MyJava
 * File_Buffer 
-* File_Delete
+* File_Delete  --
 * File_file
 * File_write
 * File_in_dir  
 * Menu
-* MathSqrt    --Math.pow(n,1.0/2)
+* MathSqrt   --Math.pow(n,1.0/2) -- 
+* E13_5x
+* GetPassword /JTextField -> title，JPasswordField ->JTextField
+
+## etc. 
+``` java
+1/
+class FileType implements FilenameFilter
+{
+    String str=null;
+    FileType(String s)
+    {
+        str="."+s;
+    }
+    public boolean accept(File dir,String name)
+    {
+        return name.endsWith(str);
+    }
+
+}
+
+2/
+String double_str=String.format("%.4f",d);
+
+3/
+Date a=new Date(file_name[i].lastModified())
+```
