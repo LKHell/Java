@@ -26,11 +26,11 @@ for Java study
 ##
 ### Chapter 10
   * 01  JFrame窗口
-  * 02  JmenuBar  JMenu JMenuItem 菜单窗口
-  * 06   BoxLayout 3个平行box 
-  * 08  
-  * 09  
-  * 10  
+  * 02  JmenuBar JMenu JMenuItem 菜单窗口
+  * 06  BoxLayout 3个平行box 
+  * 08  JLabel JTextField 传递信息回终端 ActionListener in 2 class
+  * 09  JPasswordField 密码框返回给文本框，文本框返回给标题 ActionListener in same class
+  * 10  ActionListener in function
   * 11
   * 15
   * 17 
@@ -41,5 +41,12 @@ for Java study
   * 33
   * 34
   * 35
-      
-     
+
+## MyJava
+* File_Buffer 
+* File_Delete
+* File_file
+* File_write
+* File_in_dir  
+* Menu
+* MathSqrt    --Math.pow(n,1.0/2)

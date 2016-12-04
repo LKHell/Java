@@ -2,7 +2,7 @@
  import javax.swing.*;
  import java.awt.event.*;
 
-public class E10_8{
+public class E10_08{
     
     public static void main(String args[])
     {

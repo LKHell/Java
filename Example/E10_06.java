@@ -2,7 +2,7 @@ import javax.swing.*;
 import java.awt.*;
 import javax.swing.border.*;
 
-public class E10_6
+public class E10_06
 {
     public static void main(String args[])
     {
