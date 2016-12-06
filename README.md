@@ -44,14 +44,14 @@ for Java study
 
 ## MyJava
 * File_Buffer 
-* File_Delete  --
+* File_Delete  
 * File_file
 * File_write
 * File_in_dir  
 * Menu
 * MathSqrt   --Math.pow(n,1.0/2) -- 
 * E13_5x
-* GetPassword /JTextField -> title，JPasswordField ->JTextField
+* GetPassword  --JTextField -> setTitle，JPasswordField ->JTextField
 
 ## etc. 
 ``` java
@@ -71,8 +71,42 @@ class FileType implements FilenameFilter
 }
 
 2/
-String double_str=String.format("%.4f",d);
+String double_str=String.format("%.4f",d); /* 0.0000  */
 
 3/
 Date a=new Date(file_name[i].lastModified())
+
+4/
+setBounds(x,y,width,height)
+
+5/
+WinBox()
+    {
+        box_1=Box.createVerticalBox();//createVerticalBox
+        box_1.add(new JLabel("Name"));
+        box_1.add(Box.createVerticalStrut(8));
+        box_1.add(new JLabel("Email"));
+        box_1.add(Box.createVerticalStrut(8));
+        box_1.add(new JLabel("Occupation"));
+
+        box_2=Box.createVerticalBox();
+        box_2.add(new JTextField(16));
+        box_2.add(Box.createVerticalStrut(8));
+        box_2.add(new JTextField(16));
+        box_2.add(Box.createVerticalStrut(8));
+        box_2.add(new JTextField(16));
+
+        baseBox=Box.createHorizontalBox();//createHorizontalBox
+        baseBox.add(box_1);
+        baseBox.add(Box.createHorizontalStrut(10));
+        baseBox.add(box_2);
+        
+        setLayout(new FlowLayout());
+        add(baseBox);
+        validate();
+        setBounds(120,120,300,150);
+        setVisible(true);
+        setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);   
+    }
+
 ```
