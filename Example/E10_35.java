@@ -33,14 +33,16 @@ class FileWindow extends JFrame implements ActionListener
     {
         text_area.setText(null);
         int n=file_chooser.showOpenDialog(null);
+        if(n==JFileChooser.APPROVE_OPTION){
+
         File file=file_chooser.getSelectedFile();
         try{
             FileReader readfile=new FileReader(file);
             BufferedReader in=new BufferedReader(readfile);
             String s=null;
             while((s=in.readLine())!=null)
-             text_area.append(s+"\n");
+            text_area.append(s+"\n");
         }
         catch(IOException ee){}
-    }
+    }}
 }
