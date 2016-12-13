@@ -38,10 +38,12 @@ class MathWindow extends JFrame implements ActionListener
             
             //String str=" "+n;
             int i =Integer.parseInt(s);
+            int i2=Integer.parseInt(inputText.getText().trim());/*for other*/
            // double d=Math.sqrt(i);
             double d=Math.pow(i,1.0/2);
            // String double_str=""+d;
             String double_str=String.format("%.4f",d);
+            
             showText.setText(double_str);
         }
         catch (NumberFormatException ee)
