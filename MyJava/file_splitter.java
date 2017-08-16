@@ -19,46 +19,82 @@ public class file_splitter
             BufferedWriter write_buffer=null ;
             
             String s=null;
-            int i=0,ibegin=0,iend=0,part=0;
+            int i=0,part=0,
+                int_begin=0,int_part_end=0,int_set_end=0;
            
             System.out.println("set part");
             part =intype.nextInt();
             System.out.println("set begin");
-            ibegin =intype.nextInt();
-          
-            for(int n=1;n<=part;n++)
-            {   
-                System.out.println("set end"); 
-                iend =intype.nextInt();
-                fos = new FileOutputStream(filename+"_"+n+".txt");
-                osw = new OutputStreamWriter(fos, "UTF-8");
-                write_buffer =new BufferedWriter(osw);
-                System.out.println("part "+n);   
-                while ((s=reader_buffer.readLine())!=null)
-                {
-                    i++;
-                    if(i>=iend) 
+            int_begin =intype.nextInt();
+            
+            if(int_begin>=0)
+            {
+                for(int n=1;n<=part;n++)
+                {   
+                    for(;;)
                     {
-                        ibegin=iend;
-                        write_buffer.flush();
-                        break;
-                    }
-                    else
-                    {
-                        if(i>=ibegin)
-                        { 
-                            write_buffer.write(s);
-                            write_buffer.newLine();
+                        System.out.println("set end ( -1 == lastline)");
+                        int_set_end =intype.nextInt();
+                        if(int_set_end==-1)
+                        {
+                            int_part_end =-1;
+                            break;
+                        }else if (int_set_end>int_part_end){
+                            int_part_end = int_set_end;
+                            break;
+                        }else{
+                            System.out.println("error input again.");
                         }
                     }
+                    
+                    fos = new FileOutputStream(filename+"_"+n+".txt");
+                    osw = new OutputStreamWriter(fos, "UTF-8");
+                    write_buffer =new BufferedWriter(osw);
+                    System.out.println("part "+n);   
+                    while ((s=reader_buffer.readLine())!=null)
+                    {
+                        i++;
+                        if(int_part_end==-1)
+                        {
+                            if(i>=int_begin)
+                            { 
+                                write_buffer.write(s);
+                                write_buffer.newLine();
+                            }
+                        }
+                        else
+                        {
+                            if(i>=int_part_end) 
+                            {
+                                int_begin=int_part_end;
+                                write_buffer.flush();
+                                break;
+                            }
+                            else
+                            {
+                                if(i>=int_begin)
+                                { 
+                                    write_buffer.write(s);
+                                    write_buffer.newLine();
+                                }
+                            }
+                        }
+                        
+                    }
                 }
+                System.out.println("finished");
+                write_buffer.close();
+                reader_buffer.close();
+
             }
-            System.out.println("finished");
+            else
+            {
+                System.out.println("error for set begin");
+            }
+       
             intype.close();
             
-            write_buffer.close();
-            reader_buffer.close();
-
+            
         }
         catch(IOException e)
         {
