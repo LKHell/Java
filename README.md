@@ -1,7 +1,7 @@
 # Java Content
 
 ## leetcode. 
-
+* 760.Find Anagram Mappings
 * 771.Jewels and Stones
 #
 #### MyJava
