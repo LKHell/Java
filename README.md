@@ -2,6 +2,7 @@
 
 ## leetcode. 
 * 461.HammingDistance
+* 657.Judge Route Circle
 * 760.Find Anagram Mappings
 * 771.Jewels and Stones
 #
