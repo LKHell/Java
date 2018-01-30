@@ -2,6 +2,7 @@
 
 ## leetcode. 
 * 461.HammingDistance
+* 561.Array Partition I
 * 617.Merge Two Binary Trees
 * 657.Judge Route Circle
 * 728 Self Dividing Numbers
