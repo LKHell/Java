@@ -6,10 +6,10 @@ class Solution {
     int x=0,y=0 ;
     for (char z: moves.toCharArray())
       {
-        if (z=='U') x=x+1;
-        if (z=='D') x=x-1;
-        if (z=='L') y=y-1;
-        if (z=='R') y=y+1;
+        if (z=='U') x++;
+        if (z=='D') x--;
+        if (z=='L') y++;
+        if (z=='R') y--;
       }
 
     if (x==0 && y==0)return true;
