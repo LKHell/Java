@@ -1,8 +1,12 @@
 # Java Content
 
 ## leetcode. 
+* 344.Reverse String
 * 461.HammingDistance
 * 476.Number Complement
+
+* 500.Keyboard Row
+* 557.Reverse Words in a String III
 * 561.Array Partition I
 
 * 617.Merge Two Binary Trees

@@ -38,10 +38,34 @@ class Solution {
     return ans_int;
   }
 }
-/* 1 line answer
-public class Solution {
+// 1 line answer
+/*public class Solution {
     public int findComplement(int num) {
         return ~num & ((Integer.highestOneBit(num) << 1) - 1);
     }
 }
+/*public class Solution {
+    public int findComplement(int num) {
+       return num ^((Integer.highestOneBit(num) << 1) - 1);
+    }
+}
+
+*/
+
+//100110, its complement is 011001, the sum is 111111. So we only need get the min number large or equal to num, then do substraction
+/*
+ public int findComplement(int num) 
+    {
+        int i = 0;
+        int j = 0;
+        
+        while (i < num)
+        {
+            i += Math.pow(2, j); //(2^j)
+            j++;
+        }
+        
+        return i - num;
+    }
+
 */
