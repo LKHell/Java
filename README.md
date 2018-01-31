@@ -2,12 +2,17 @@
 
 ## leetcode. 
 * 461.HammingDistance
+* 476.Number Complement
 * 561.Array Partition I
+
 * 617.Merge Two Binary Trees
 * 657.Judge Route Circle
+
 * 728 Self Dividing Numbers
 * 760.Find Anagram Mappings
+* 766.Toeplitz Matrix 
 * 771.Jewels and Stones
+
 #
 #### MyJava
 * File_Buffer 
