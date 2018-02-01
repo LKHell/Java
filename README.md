@@ -2,9 +2,14 @@
 
 ## leetcode. 
 * 001.Two Sum 
+* 002.Add Two Numbers
+* 003.Longest Substring Without Repeating Characters
 * 007.Reverse Integer
+* 013.Roman to Integer
+* 014.Longest Common Prefix
 
 * 344.Reverse String
+
 * 461.HammingDistance
 * 476.Number Complement
 
