@@ -1,6 +1,7 @@
 # Java Content
 
 ## leetcode. 
+* 001.Two Sum 
 * 007.Reverse Integer
 
 * 344.Reverse String
@@ -13,6 +14,8 @@
 
 * 617.Merge Two Binary Trees
 * 657.Judge Route Circle
+* 669.Trim a Binary Search Tree
+* 682.Baseball Game
 
 * 728 Self Dividing Numbers
 * 760.Find Anagram Mappings
