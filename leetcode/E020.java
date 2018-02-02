@@ -6,20 +6,21 @@
 class Solution {
     public boolean isValid(String s) {
         Stack<Character> stack =new Stack<>();
-    
+  
         for (char c : s.toCharArray() ) {
+        if (c == '[' || c == '{' || c == '(')
             switch (c){
-                case '[' : stack.push(')'); break;
+                case '[' :stack.push(']'); break;
                 
-                case '{' : stack.push(); break;
+                case '{' : stack.push('}'); break;
                 
-                case '(' : d++; break;
-                
-                default  :  break;
+                case '(' : stack.push(')') ; break;
             }
-            if (stack.empty() || stack.pop() != c)
+          else  if (stack.isEmpty() || stack.pop() != c)
+            return false;
         
         }
-        return stakc.isEmpty();
+
+        return stack.isEmpty();
     }
 }

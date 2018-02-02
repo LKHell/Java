@@ -9,6 +9,8 @@
 * 013.Roman to Integer
 * 014.Longest Common Prefix
 * 020.Valid Parentheses
+* 021.Merge Two Sorted Lists
+* 026.Remove Duplicates from Sorted Array
 
 * 344.Reverse String
 
