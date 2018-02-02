@@ -5,6 +5,7 @@
 * 002.Add Two Numbers
 * 003.Longest Substring Without Repeating Characters
 * 007.Reverse Integer
+* 009.Palindrome Number
 * 013.Roman to Integer
 * 014.Longest Common Prefix
 
