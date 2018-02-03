@@ -1,5 +1,6 @@
 # Java Content
 
+
 ## leetcode. 
 * 001. Two Sum 
 * 002. Add Two Numbers
@@ -50,6 +51,45 @@
 * E13_5x
 * GetPassword  --JTextField -> setTitle，JPasswordField ->JTextField
 
+
+## char and String
+```java
+// String to char
+1. String.charAt(index) //return char
+2. String.tocharArray() //return char[]
+ 
+//char to String
+1. String s = String.valueOf('c'); //效率最高的方法
+
+2. String s = String.valueOf(new char[]{'c'}); //将一个char数组转换成String
+
+3. String s = Character.toString('c');
+// Character.toString(char)方法实际上直接返回String.valueOf(char)
+
+4. String s = new Character('c').toString();
+
+5. String s = "" + 'c';
+// 虽然这个方法很简单，但这是效率最低的方法
+// Java中的String Object的值实际上是不可变的，是一个final的变量。
+// 所以我们每次对String做出任何改变，都是初始化了一个全新的String Object并将原来的变量指向了这个新String。
+// 而Java对使用+运算符处理String相加进行了方法重载。
+// 字符串直接相加连接实际上调用了如下方法：
+// new StringBuilder().append("").append('c').toString();
+
+
+6. String s = new String(new char[]{'c'});
+```
+
+## int and String
+```java
+// int to String
+1.num + ""
+2.String.valueOf(num)   // can be null
+3.Integer.toString(num) // can't be null
+// String to int
+1.Integer.parseInt(str)
+2.Integer.valueOf(str).intValue() //String => Integer => int
+```
 
 #### Midterm_test:  
  *  三个算法，算圆 三角，以及圆和三角组成的阴影面积，用接口I定义方法A，实现算法，同时抛出自定义异常类，循环判断
