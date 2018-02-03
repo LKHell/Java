@@ -14,6 +14,8 @@
 * 027.Remove Element
 * 035.Serach Insert Position
 * 038.Count and Say
+* 066.Plus One
+* 069.Sqrt(x)
 
 * 344.Reverse String
 
