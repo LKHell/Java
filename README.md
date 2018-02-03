@@ -11,6 +11,9 @@
 * 020.Valid Parentheses
 * 021.Merge Two Sorted Lists
 * 026.Remove Duplicates from Sorted Array
+* 027.Remove Element
+* 035.Serach Insert Position
+* 038.Count and Say
 
 * 344.Reverse String
 
