@@ -23,6 +23,8 @@
 *
 * 101. Symmetric Tree
 * 104. Maximum Depth of Binary Tree
+* 108. Convert Sorted Array to Binary Search Tree
+* 118. Pascal's Triangle
 *
 * 344. Reverse String
 *
