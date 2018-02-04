@@ -18,6 +18,10 @@
 * 053. Maximum Subarray
 * 066. Plus One
 * 069. Sqrt(x)
+* 070. Climbing Stairs
+* 088. Merge Sorted Array 
+*
+* 101. Symmetric Tree
 *
 * 344. Reverse String
 *
