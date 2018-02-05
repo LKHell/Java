@@ -24,7 +24,9 @@
 * 101. Symmetric Tree
 * 104. Maximum Depth of Binary Tree
 * 108. Convert Sorted Array to Binary Search Tree
-* 118. Pascal's Triangle
+* 118. Pascal's Triangle // not finished
+* 121. Best Time to Buy and Sell Stock
+* 122. Best Time to Buy and Sell Stock II
 *
 * 344. Reverse String
 *
@@ -77,9 +79,9 @@
 
 5. String s = "" + 'c';
 // 虽然这个方法很简单，但这是效率最低的方法
-// Java中的String Object的值实际上是不可变的，是一个final的变量。
-// 所以我们每次对String做出任何改变，都是初始化了一个全新的String Object并将原来的变量指向了这个新String。
-// 而Java对使用+运算符处理String相加进行了方法重载。
+// Java中的String Object的值实际上是不可变的，是一个final的变量�?
+// 所以我们每次对String做出任何改变，都是初始化了一个全新的String Object并将原来的变量指向了这个新String�?
+// 而Java对使�?+运算符处理String相加进行了方法重载�?
 // 字符串直接相加连接实际上调用了如下方法：
 // new StringBuilder().append("").append('c').toString();
 
@@ -99,7 +101,7 @@
 ```
 
 #### Midterm_test:  
- *  三个算法，算圆 三角，以及圆和三角组成的阴影面积，用接口I定义方法A，实现算法，同时抛出自定义异常类，循环判断
+ *  三个算法，算�? 三角，以及圆和三角组成的阴影面积，用接口I定义方法A，实现算法，同时抛出自定义异常类，循环判�?
 
 #### Lab2: 
  * 用继承类实现最大公约数以及最小公倍数
@@ -110,10 +112,10 @@
 #### Lab4:
  * 读取txt内容   
 
-#### Example: JAVA大学实用教程（第三版） 
+#### Example: JAVA大学实用教程（第三版�? 
 #####  Chapter 9
-  * 1  File 判断文件类型，显示文件名和大小，删除第一个文件
-  * 3  FileInputStream, FileOutputStream  将内容写入txt，读取
+  * 1  File 判断文件类型，显示文件名和大小，删除第一个文�?
+  * 3  FileInputStream, FileOutputStream  将内容写入txt，读�?
   * 4  FileReader, FileWriter 
   * 5  BufferedReader, BufferedWriter  
     
