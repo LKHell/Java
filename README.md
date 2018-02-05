@@ -27,6 +27,9 @@
 * 118. Pascal's Triangle // not finished
 * 121. Best Time to Buy and Sell Stock
 * 122. Best Time to Buy and Sell Stock II
+* 125. Valid Palindrome
+* 141. Linked List Cycle
+* 155. Min Stack
 *
 * 344. Reverse String
 *
