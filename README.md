@@ -31,6 +31,7 @@
 * 141. Linked List Cycle
 * 155. Min Stack
 * 160. Intersection of Two Linked Lists
+* 169. Majority Element
 *
 * 344. Reverse String
 *
