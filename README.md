@@ -39,6 +39,11 @@
 * 191. Number of 1 Bits
 * 198. House Robber
 *
+* 202. Happy Number
+* 204. Count Primes
+* 206. Reverse Linked List
+* 217. Contains Duplicate
+*
 * 344. Reverse String
 *
 * 412. Fizz Buzz
