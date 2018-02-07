@@ -36,6 +36,8 @@
 * 172. Factorial Trailing Zeroes
 * 189. Rotate Array
 * 190. Reverse Bits
+* 191. Number of 1 Bits
+* 198. House Robber
 *
 * 344. Reverse String
 *
@@ -69,6 +71,22 @@
 * E13_5x
 * GetPassword  --JTextField -> setTitleï¼ŒJPasswordField ->JTextField
 
+## About '& | ^ ~ << >>'
+
+* \& 
+   
+  only 1 & 1 = 1;
+
+*  \|  
+
+  only 0 | 0 = 0;
+
+* \^  XOR
+
+  0 ^ 1 =1 and  1 ^ 0 = 1; 
+
+* \~
+  È¡·´
 
 ## char and String
 ```java
