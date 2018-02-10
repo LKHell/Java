@@ -1,8 +1,8 @@
 # Java Content
 
 
-## leetcode. 
-* 001. Two Sum 
+## leetcode 
+001. Two Sum 
 * 002. Add Two Numbers
 * 003. Longest Substring Without Repeating Characters
 * 007. Reverse Integer
