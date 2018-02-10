@@ -44,6 +44,8 @@
 * 206. Reverse Linked List
 * 217. Contains Duplicate
 * 234. Palindrome Linked List
+* 237. Delete Node in a Linked List
+* 242. Valid Anagram
 *
 * 344. Reverse String
 *
