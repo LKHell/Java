@@ -68,7 +68,7 @@ class Solution {
   }
 }
 
-// Gauss' Formula
+// Gauss' Formula  overflow
 class Solution {
   public int missingNumber(int[] nums) {
     int ex_sum = nums.length * (nums.length+1)/2;
@@ -80,16 +80,16 @@ class Solution {
   }
 }
 
-//
+//For Binary Search, I prefer the more standard way.
 class Solution {
-  public int missingNumber(int[] nums) {
-      int total = 0;
-      for(int i = 1; i <= nums.length ;i++ ){
-          total += i;
-      }
-      for(int n : nums){
-          total -= n;
-      }
-      return total;
-  }
+    public int missingNumber(int[] nums) {
+        Arrays.sort(nums);
+        int left = 0, right = nums.length-1;
+        while(left<=right){
+            int mid = (left + right)/2;
+            if(nums[mid]>mid) right = mid-1;
+            else left = mid+1;
+        }
+        return left;
+    }
 }

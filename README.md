@@ -47,6 +47,7 @@
 237. Delete Node in a Linked List
 242. Valid Anagram
 268. Missing Number
+283. Move Zeroes
 *
 344. Reverse String
 *
