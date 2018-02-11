@@ -46,6 +46,7 @@
 234. Palindrome Linked List
 237. Delete Node in a Linked List
 242. Valid Anagram
+268. Missing Number
 *
 344. Reverse String
 *
