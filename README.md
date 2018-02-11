@@ -49,7 +49,11 @@
 268. Missing Number
 283. Move Zeroes
 *
+326. Power of Three
 344. Reverse String
+350. Intersection of Two Arrays II
+371. Sum of Two Integers
+387. First Unique Character in a String
 *
 412. Fizz Buzz
 461. HammingDistance
