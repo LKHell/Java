@@ -6,6 +6,7 @@
 002. Add Two Numbers
 003. Longest Substring Without Repeating Characters
 004. Median of Two Sorted Arrays
+005. Longest Palindromic Substring
 007. Reverse Integer
 009. Palindrome Number
 013. Roman to Integer
@@ -16,6 +17,7 @@
 027. Remove Element
 035. Serach Insert Position
 038. Count and Say
+050. Pow(x, n)
 053. Maximum Subarray
 066. Plus One
 069. Sqrt(x)

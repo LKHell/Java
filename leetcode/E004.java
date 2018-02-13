@@ -20,7 +20,7 @@ class Solution {
       int m = nums1.length;
       int n = nums2.length;
 
-      if (m > n) {
+      if (m > n) {  // ensure m <= n
         int [] temp = nums1; 
         nums1 = nums2;
         nums2 = temp;
@@ -72,5 +72,49 @@ class Solution {
         }
       }
       return 0.0;
+  }
+}
+
+
+//
+class Solution {
+  public double findMedianSortedArrays(int[] nums1, int[] nums2) {
+      if (nums1 == null || nums1.length == 0){
+          return findMedianSortedArrays(nums2);             
+      }
+      if (nums2 == null || nums2.length == 0){
+          return findMedianSortedArrays(nums1);             
+      }
+      int l1 = nums1.length, l2 = nums2.length;
+      int l = l1 + l2;
+      int[] arr = new int[l];
+      int p = l1 - 1, q = l2 - 1, i = l - 1;
+      while ( p >= 0 && q >= 0){
+          if (nums1[p] > nums2[q]){
+              arr[i--] = nums1[p--];
+          } else {
+              arr[i--] = nums2[q--];
+          }
+      }
+      while (p >= 0){
+          arr[i--] = nums1[p--];
+      } 
+      while (q >= 0){
+          arr[i--] = nums2[q--];
+      }
+      if (l % 2 != 0){
+          return arr[l/2];
+      } else {
+          return (arr[ l/ 2 - 1] + arr[l/2])/2.0;
+      }
+   
+  }
+  public double findMedianSortedArrays(int[] arr ) {
+      int l = arr.length;
+      if (l % 2 != 0){
+          return arr[l/2];
+      } else {
+          return (arr[ l/ 2 - 1] + arr[l/2])/2.0;
+      }
   }
 }
