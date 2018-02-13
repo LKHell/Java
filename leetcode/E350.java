@@ -34,3 +34,36 @@ class Solution {
       return ans;
   }
 }
+
+
+
+//
+class Solution {
+  public int[] intersect(int[] nums1, int[] nums2) {
+      Arrays.sort(nums1);
+      Arrays.sort(nums2);
+      int i = 0;
+      int j = 0;
+      int k = 0;
+      int[] ans = new int[Math.min(nums1.length, nums2.length)];
+      while (i < nums1.length && j < nums2.length) {
+          if (nums1[i] == nums2[j]) {
+              ans[k] = nums1[i];
+              i++;
+              j++;
+              k++;
+          } else if (nums1[i] < nums2[j]) {
+              while (i + 1 < nums1.length && nums1[i] == nums1[i + 1]) i++;
+              i++;
+          } else {
+              while (j + 1 < nums2.length && nums2[j] == nums2[j + 1]) j++;
+              j++;
+          }
+      }
+      
+      return Arrays.copyOf(ans, k);
+  }
+}
+
+// [], [1,2,2,3] -> []
+// [2,2], [1,2,2,3] -> [2,2]
