@@ -8,6 +8,7 @@
 004. Median of Two Sorted Arrays
 005. Longest Palindromic Substring
 007. Reverse Integer
+008. String to Integer (atoi)
 009. Palindrome Number
 013. Roman to Integer
 014. Longest Common Prefix
