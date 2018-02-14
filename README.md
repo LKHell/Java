@@ -15,10 +15,13 @@
 014. Longest Common Prefix
 15. 3Sum
 17. Letter Combinations of a Phone Number
+19. Remove Nth Node From End of List
 020. Valid Parentheses
 021. Merge Two Sorted Lists
+22. Generate Parentheses
 026. Remove Duplicates from Sorted Array
 027. Remove Element
+29. Divide Two Integers
 035. Serach Insert Position
 038. Count and Say
 050. Pow(x, n)
