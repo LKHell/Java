@@ -22,6 +22,7 @@
 026. Remove Duplicates from Sorted Array
 027. Remove Element
 29. Divide Two Integers
+33. Search in Rotated Sorted Array
 035. Serach Insert Position
 038. Count and Say
 050. Pow(x, n)
@@ -183,7 +184,7 @@ System.out.print(i == j); //false
 ```
 
 #### Midterm_test:  
- *  三个算法，算�?? 三角，以及圆和三角组成的阴影面积，用接口I定义方法A，实现算法，同时抛出自定义异常类，循环判�??
+ *  三个算法，算法 三角，以及圆和三角组成的阴影面积，用接口I定义方法A，实现算法，同时抛出自定义异常类，循环判断
 
 #### Lab2: 
  * 用继承类实现最大公约数以及最小公倍数
@@ -196,8 +197,8 @@ System.out.print(i == j); //false
 
 #### Example: JAVA大学实用教程（第三版）
 #####  Chapter 9
- * 1  File 判断文件类型，显示文件名和大小，删除第一个文�??
- * 3  FileInputStream, FileOutputStream  将内容写入txt，读�??
+ * 1  File 判断文件类型，显示文件名和大小，删除第一个文件
+ * 3  FileInputStream, FileOutputStream  将内容写入txt，读取
  * 4  FileReader, FileWriter 
  * 5  BufferedReader, BufferedWriter  
     
