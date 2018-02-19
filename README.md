@@ -27,6 +27,7 @@
 035. Serach Insert Position
 36. Valid Sudoku
 038. Count and Say
+46. Permutations
 050. Pow(x, n)
 053. Maximum Subarray
 066. Plus One
