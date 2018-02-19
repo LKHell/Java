@@ -23,7 +23,9 @@
 027. Remove Element
 29. Divide Two Integers
 33. Search in Rotated Sorted Array
+34. Search for a Range
 035. Serach Insert Position
+36. Valid Sudoku
 038. Count and Say
 050. Pow(x, n)
 053. Maximum Subarray
