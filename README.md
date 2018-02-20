@@ -29,8 +29,10 @@
 038. Count and Say
 46. Permutations
 48. Rotate Image    
+49. Group Anagrams
 050. Pow(x, n)
 053. Maximum Subarray
+54. Spiral Matrix
 066. Plus One
 069. Sqrt(x)
 070. Climbing Stairs
