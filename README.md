@@ -28,6 +28,7 @@
 36. Valid Sudoku
 038. Count and Say
 46. Permutations
+48. Rotate Image    
 050. Pow(x, n)
 053. Maximum Subarray
 066. Plus One
