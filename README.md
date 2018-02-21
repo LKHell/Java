@@ -34,6 +34,7 @@
 053. Maximum Subarray
 54. Spiral Matrix
 55. Jump Game
+56. Merge Intervals
 066. Plus One
 069. Sqrt(x)
 070. Climbing Stairs
