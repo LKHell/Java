@@ -42,3 +42,30 @@ class Solution {
       }
   }
 }
+
+//
+
+public class Solution {
+    public void s(int i,int k, int[] c) {
+        int temp = c[i];
+        c[i] = c[k];
+        c[k] = temp;
+    }
+    
+    public void sortColors(int[] nums) {
+        int r,b,j,red,blue;
+        
+        blue=2;
+        red=r=j= 0;
+        b = nums.length - 1;
+        
+        
+        while (b>=j) {
+            if (nums[j] == red) {s(j, r,nums);r=r+1;j++;} 
+            else if (nums[j] == blue) {s(j,b,nums);b=b-1;} 
+            else {j++;}
+        }
+    }
+     
+    
+}
