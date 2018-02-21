@@ -40,6 +40,7 @@
 069. Sqrt(x)
 070. Climbing Stairs
 73. Set Matrix Zeroes
+75. Sort Colors
 088. Merge Sorted Array 
 *
 101. Symmetric Tree
