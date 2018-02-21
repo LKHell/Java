@@ -35,9 +35,11 @@
 54. Spiral Matrix
 55. Jump Game
 56. Merge Intervals
+62. Unique Paths
 066. Plus One
 069. Sqrt(x)
 070. Climbing Stairs
+73. Set Matrix Zeroes
 088. Merge Sorted Array 
 *
 101. Symmetric Tree
