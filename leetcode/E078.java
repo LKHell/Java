@@ -39,6 +39,26 @@ class Solution {
   }
 }
 
+/*
+[1, 2, 3]
+out :[1, 2]
+[1, 2]
+out :[1]
+[1, 3]
+out :[1]
+[1]
+out :[]
+[2, 3]
+out :[2]
+[2]
+out :[]
+[3]
+out :[]
+*/
+
+
+
+
 
 //
 public class Solution {

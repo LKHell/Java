@@ -42,7 +42,10 @@
 73. Set Matrix Zeroes
 75. Sort Colors
 78. Subsets
-088. Merge Sorted Array 
+79. Word Search
+088. Merge Sorted Array
+91. Decode Ways
+94. Binary Tree Inorder Traversal 
 *
 101. Symmetric Tree
 104. Maximum Depth of Binary Tree
