@@ -45,10 +45,14 @@
 79. Word Search
 088. Merge Sorted Array
 91. Decode Ways
-94. Binary Tree Inorder Traversal 
+94. Binary Tree Inorder Traversal
+98. Validate Binary Search Tree 
 *
 101. Symmetric Tree
+102. Binary Tree Level Order Traversal
+103. Binary Tree Zigzag Level Order Traversal
 104. Maximum Depth of Binary Tree
+105. Construct Binary Tree from Preorder and Inorder Traversal
 108. Convert Sorted Array to Binary Search Tree
 118. Pascal's Triangle 
 121. Best Time to Buy and Sell Stock
@@ -167,10 +171,10 @@
 2.Integer.valueOf(str).intValue() //String => Integer => int
 ```
 ## Integer and int
-1、Integer是int的包装类，int则是java的一种基本数据类型 
-2、Integer变量必须实例化后才能使用，而int变量不需要 
-3、Integer实际是对象的引用，当new一个Integer时，实际上是生成一个指针指向此对象；而int则是直接存储数据值 
-4、Integer的默认值是null，int的默认值是0
+* 1、Integer是int的包装类，int则是java的一种基本数据类型 
+* 2、Integer变量必须实例化后才能使用，而int变量不需要 
+* 3、Integer实际是对象的引用，当new一个Integer时，实际上是生成一个指针指向此对象；而int则是直接存储数据值 
+* 4、Integer的默认值是null，int的默认值是0
 
 ```java
 1.
@@ -197,6 +201,16 @@ Integer j = 128;
 System.out.print(i == j); //false
 
 ```
+### Queue
+* add        增加一个元索                     如果队列已满，则抛出一个 IIIegaISlabEepeplian异常
+* remove   移除并返回队列头部的元素    如果队列为空，则抛出一个NoSuchElementException异常
+* element  返回队列头部的元素             如果队列为空，则抛出一个NoSuchElementException异常
+* offer       添加一个元素并返回true       如果队列已满，则返回false
+* poll         移除并返问队列头部的元素    如果队列为空，则返回null
+* peek       返回队列头部的元素             如果队列为空，则返回null
+* put         添加一个元素                      如果队列满，则阻塞
+* take        移除并返回队列头部的元素     如果队列为空，则阻塞
+
 
 #### Midterm_test:  
  *  三个算法，算法 三角，以及圆和三角组成的阴影面积，用接口I定义方法A，实现算法，同时抛出自定义异常类，循环判断
@@ -220,20 +234,20 @@ System.out.print(i == j); //false
 
 ####
 #### Chapter 10
-*  01  JFrame窗口
-*  02  JmenuBar JMenu JMenuItem 菜单窗口
-*  06  BoxLayout 3个平行box createVertucalBox,createHorizontalBox
-*  08  JLabel JTextField 传递信息回终端 ActionListener in 2 class
-*  09  JPasswordField 密码框返回给文本框，文本框返回给标题 ActionListener in same class
-*  10  ActionListener in function
-*  11
-*  15
-*  17 
-*  23
-*  24
- * 25
- * 29
- * 33
- * 34
- * 35
+* 01  JFrame窗口
+* 02  JmenuBar JMenu JMenuItem 菜单窗口
+* 06  BoxLayout 3个平行box createVertucalBox,createHorizontalBox
+* 08  JLabel JTextField 传递信息回终端 ActionListener in 2 class
+* 09  JPasswordField 密码框返回给文本框，文本框返回给标题 ActionListener in same class
+* 10  ActionListener in function
+* 11
+* 15
+* 17 
+* 23
+* 24
+* 25
+* 29
+* 33
+* 34
+* 35
 
