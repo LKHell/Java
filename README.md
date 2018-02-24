@@ -59,7 +59,10 @@
 121. Best Time to Buy and Sell Stock
 122. Best Time to Buy and Sell Stock II
 125. Valid Palindrome
-127. Word Ladder
+127. Word Ladder   // not finished
+130. Surrounded Regions
+131. Palindrome Partitioning
+134. Gas Station
 141. Linked List Cycle
 155. Min Stack
 160. Intersection of Two Linked Lists
@@ -208,11 +211,11 @@ System.out.print(i == j); //false
 * add        增加一个元索                     如果队列已满，则抛出一个 IIIegaISlabEepeplian异常
 * remove   移除并返回队列头部的元素    如果队列为空，则抛出一个NoSuchElementException异常
 * element  返回队列头部的元素             如果队列为空，则抛出一个NoSuchElementException异常
-* offer       添加一个元素并返回true       如果队列已满，则返回false
-* poll         移除并返问队列头部的元素    如果队列为空，则返回null
-* peek       返回队列头部的元素             如果队列为空，则返回null
-* put         添加一个元素                      如果队列满，则阻塞
-* take        移除并返回队列头部的元素     如果队列为空，则阻塞
+* offer     添加一个元素并返回true       如果队列已满，则返回false
+* poll      移除并返问队列头部的元素    如果队列为空，则返回null
+* peek      返回队列头部的元素          如果队列为空，则返回null
+* put       添加一个元素               如果队列满，则阻塞
+* take      移除并返回队列头部的元素     如果队列为空，则阻塞
 
 
 #### Midterm_test:  
