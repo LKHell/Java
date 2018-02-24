@@ -54,10 +54,12 @@
 104. Maximum Depth of Binary Tree
 105. Construct Binary Tree from Preorder and Inorder Traversal
 108. Convert Sorted Array to Binary Search Tree
+116. Populating Next Right Pointers in Each Node
 118. Pascal's Triangle 
 121. Best Time to Buy and Sell Stock
 122. Best Time to Buy and Sell Stock II
 125. Valid Palindrome
+127. Word Ladder
 141. Linked List Cycle
 155. Min Stack
 160. Intersection of Two Linked Lists
@@ -171,7 +173,8 @@
 2.Integer.valueOf(str).intValue() //String => Integer => int
 ```
 ## Integer and int
-* 1、Integer是int的包装类，int则是java的一种基本数据类型 
+* 1、Integer是int的包装类，
+int则是java的一种基本数据类型 
 * 2、Integer变量必须实例化后才能使用，而int变量不需要 
 * 3、Integer实际是对象的引用，当new一个Integer时，实际上是生成一个指针指向此对象；而int则是直接存储数据值 
 * 4、Integer的默认值是null，int的默认值是0
