@@ -89,6 +89,7 @@
 283. Move Zeroes
 *
 326. Power of Three
+338. Counting Bits
 344. Reverse String
 350. Intersection of Two Arrays II
 371. Sum of Two Integers
