@@ -10,6 +10,7 @@
 007. Reverse Integer
 008. String to Integer (atoi)
 009. Palindrome Number
+10. Regular Expression Matching
 11. Container With Most Water
 013. Roman to Integer
 014. Longest Common Prefix
