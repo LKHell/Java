@@ -61,12 +61,14 @@ class Solution {
           for (int j = 1; j < T[0].length; j++) {
               if (pattern[j - 1] == '.' || pattern[j - 1] == text[i - 1]) {
                   T[i][j] = T[i-1][j-1];
-              } else if (pattern[j - 1] == '*')  {
-                  T[i][j] = T[i][j - 2];
+              } 
+              else if (pattern[j - 1] == '*') {
+                  T[i][j] = T[i][j - 2];  // assuming  empty 
                   if (pattern[j-2] == '.' || pattern[j - 2] == text[i - 1]) {
-                      T[i][j] = T[i][j] | T[i - 1][j];
+                      T[i][j] = T[i][j] | T[i - 1][j];  // only 0|0 = 0
                   }
-              } else {
+              } 
+              else {
                   T[i][j] = false;
               }
           }
@@ -84,6 +86,6 @@ class Solution {
                                             //in this case, a* only counts as empty
       2   if p.charAt(i-1) == s.charAt(i) or p.charAt(i-1) == '.':
                      dp[i][j] = dp[i-1][j]  //in this case, a* counts as multiple a 
-                  or dp[i][j] = dp[i][j-1]  // in this case, a* counts as single a
-                  or dp[i][j] = dp[i][j-2]  // in this case, a* counts as empty
+                  or dp[i][j] = dp[i][j-1]  //in this case, a* counts as single a
+                  or dp[i][j] = dp[i][j-2]  //in this case, a* counts as empty
 */

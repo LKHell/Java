@@ -64,6 +64,8 @@
 130. Surrounded Regions
 131. Palindrome Partitioning
 134. Gas Station
+138. Copy List with Random Pointer // NF
+139. Word Break
 141. Linked List Cycle
 155. Min Stack
 160. Intersection of Two Linked Lists
@@ -79,6 +81,7 @@
 204. Count Primes
 206. Reverse Linked List
 217. Contains Duplicate
+226. Invert Binary Tree
 234. Palindrome Linked List
 237. Delete Node in a Linked List
 242. Valid Anagram
