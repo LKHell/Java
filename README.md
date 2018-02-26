@@ -24,11 +24,14 @@
 026. Remove Duplicates from Sorted Array
 027. Remove Element
 29. Divide Two Integers
+31. Next Permutation
+32. Longest Valid Parentheses
 33. Search in Rotated Sorted Array
 34. Search for a Range
 035. Serach Insert Position
 36. Valid Sudoku
 038. Count and Say
+39. Combination Sum
 46. Permutations
 48. Rotate Image    
 49. Group Anagrams

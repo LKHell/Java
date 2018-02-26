@@ -11,6 +11,7 @@ import java.util.PriorityQueue;
  *     ListNode(int x) { val = x; }
  * }
  */
+// 21ms
 class Solution {
   public ListNode mergeKLists(ListNode[] lists) {
     if(lists == null || lists.length == 0) {
@@ -50,7 +51,7 @@ class Solution {
   }
 }
 
-// Top-down approach O(nlgn). Divide and conquer.
+// Top-down approach O(nlgn). Divide and conquer. 14ms
 class Solution {
   public ListNode mergeKLists(ListNode[] lists) {
       if (lists == null || lists.length == 0) return null;
