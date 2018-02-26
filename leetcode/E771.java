@@ -5,6 +5,8 @@ The letters in J are guaranteed distinct, and all characters in J and S are lett
 */
 import java.util.*;
 
+
+//18ms
 class Solution  {
     // public int numJewelsInStones(String J, String S)
     public int numJewelsInStones(String J, String S) {
@@ -20,6 +22,30 @@ class Solution  {
        return ans_int;
   }
 }
+
+//21ms
+class Solution  {
+  
+  public int numJewelsInStones(String J, String S) {
+    int ans_int = 0;
+    Set<Character> set = new HashSet<>();
+    for(char c : J.toCharArray()) {
+      set.add(c);
+    }
+    for(char c : S.toCharArray()) {
+      if(set.contains(c)) {
+        ans_int ++ ;
+      }
+    }
+     return ans_int;
+  }
+}
+
+
+
+
+
+
 
 public class E771{
   public static void main(String[] args) {
