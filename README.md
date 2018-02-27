@@ -32,6 +32,7 @@
 36. Valid Sudoku
 038. Count and Say
 39. Combination Sum
+42. Trapping Rain Water
 46. Permutations
 48. Rotate Image    
 49. Group Anagrams
