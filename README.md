@@ -32,6 +32,7 @@
 36. Valid Sudoku
 038. Count and Say
 39. Combination Sum
+41. First Missing Positive
 42. Trapping Rain Water
 46. Permutations
 48. Rotate Image    
@@ -47,6 +48,7 @@
 070. Climbing Stairs
 73. Set Matrix Zeroes
 75. Sort Colors
+76. Minimum Window Substring
 78. Subsets
 79. Word Search
 088. Merge Sorted Array
@@ -65,13 +67,14 @@
 121. Best Time to Buy and Sell Stock
 122. Best Time to Buy and Sell Stock II
 125. Valid Palindrome
-127. Word Ladder   // not finished
+127. Word Ladder   // NF
 130. Surrounded Regions
 131. Palindrome Partitioning
 134. Gas Station
 138. Copy List with Random Pointer // NF
 139. Word Break
 141. Linked List Cycle
+148. Sort List
 155. Min Stack
 160. Intersection of Two Linked Lists
 169. Majority Element
