@@ -51,6 +51,7 @@
 76. Minimum Window Substring
 78. Subsets
 79. Word Search
+84. Largest Rectangle in Histogram
 088. Merge Sorted Array
 91. Decode Ways
 94. Binary Tree Inorder Traversal
