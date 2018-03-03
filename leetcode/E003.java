@@ -31,11 +31,11 @@ class Solution {
   }
 }
 
-//ASCII 128
+//ASCII 256
 class Solution{
   public int lengthOfLongestSubstring(String s) {
     int n = s.length(), ans = 0;
-    int [] index = new int [128]; // all set 0
+    int [] index = new int [256]; // all set 0
     
     for (int j=0, i=0; j<n; j++) {
       i = Math.max(index[s.charAt(j)], i);
@@ -46,3 +46,30 @@ class Solution{
   }
 }
 
+class Solution {
+  public int lengthOfLongestSubstring(String s) {
+      char[] chars = s.toCharArray();
+      if(2 > chars.length){
+          return chars.length;
+      }
+      int max = 0;
+      int split_at = 0;
+      int cur_len = 1;
+      for(int i=1;i<chars.length;i++){
+          int j = split_at;
+          for(;j<i;j++){
+              if(chars[i] == chars[j]){
+                  break;
+              }
+          }
+          if(j < i){
+              split_at = j+1;
+              cur_len = i-j;
+          }else{
+              cur_len++;
+          }
+          if(cur_len > max) max = cur_len;
+      }
+      return max;
+  }
+}
