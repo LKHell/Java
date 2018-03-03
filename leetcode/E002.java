@@ -41,3 +41,43 @@ class Solution {
         return prev.next;
     }
 }
+
+class Solution {
+    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+        
+        if (null == l1) {
+            return l2;
+        }
+        if (null == l2) {
+            return l1;
+        }
+        
+        ListNode cur1 = l1;
+		ListNode cur2 = l2;
+		
+		ListNode result = new ListNode(0);
+		ListNode cur = result;
+		
+		int carry = 0;
+		
+		while (null != cur1 || null != cur2 || 1 == carry) {
+			int sum = (null == cur1? 0 : cur1.val) + (null == cur2? 0 : cur2.val) + carry;
+			if (sum >= 10) {
+				sum = sum - 10;
+				carry = 1;
+			} else {
+				carry = 0;
+			}
+			cur.next = new ListNode(sum);
+			cur = cur.next;
+			cur1 = (null == cur1) ? null : cur1.next;
+			cur2 = (null == cur2) ? null : cur2.next;
+		}
+		
+		return result.next;
+        
+        
+        
+        
+    }
+}

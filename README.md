@@ -2,127 +2,125 @@
 
 
 ## leetcode 
-- 001 Two Sum 
-- 002 Add Two Numbers
-- 003 Longest Substring Without Repeating Characters
-- 004 Median of Two Sorted Arrays
-- 005 Longest Palindromic Substring
-- 007 Reverse Integer
-- 008 String to Integer (atoi)
-- 009 Palindrome Number
-- 010 Regular Expression Matching
-- 011 Container With Most Water
-- 013 Roman to Integer
-- 014 Longest Common Prefix
-- 015 3Sum
-- 017 Letter Combinations of a Phone Number
-- 019 Remove Nth Node From End of List
-- 020 Valid Parentheses
-- 021 Merge Two Sorted Lists
-- 022 Generate Parentheses
-- 023 Merge k Sorted Lists
-- 026 Remove Duplicates from Sorted Array
-- 027 Remove Element
-- 029 Divide Two Integers
-- 031 Next Permutation
-- 032 Longest Valid Parentheses
-- 033 Search in Rotated Sorted Array
-- 034.Search for a Range
-- 035 Serach Insert Position
-- 036 Valid Sudoku
-- 038 Count and Say
-- 039 Combination Sum
-- 041 First Missing Positive
-- 042 Trapping Rain Water
-- 046 Permutations
-- 048 Rotate Image    
-- 049 Group Anagrams
-- 050 Pow(x, n)
-- 053 Maximum Subarray
-- 054 Spiral Matrix
-- 055 Jump Game
-- 056 Merge Intervals
-- 062 Unique Paths
-- 066 Plus One
-- 069 Sqrt(x)
-- 070 Climbing Stairs
-- 073 Set Matrix Zeroes
-- 075 Sort Colors
-- 076 Minimum Window Substring
-- 078 Subsets
-- 079 Word Search
-- 084 Largest Rectangle in Histogram
-- 088 Merge Sorted Array
-- 091 Decode Ways
-- 094 Binary Tree Inorder Traversal
-- 098 Validate Binary Search Tree 
+001. Two Sum //Rw_11
+002. Add Two Numbers
+003. Longest Substring Without Repeating Characters
+004. Median of Two Sorted Arrays
+005. Longest Palindromic Substring
+007. Reverse Integer
+008. String to Integer (atoi)
+009. Palindrome Number
+10. Regular Expression Matching
+11. Container With Most Water
+013. Roman to Integer
+014. Longest Common Prefix
+15. 3Sum
+17. Letter Combinations of a Phone Number
+19. Remove Nth Node From End of List
+020. Valid Parentheses
+021. Merge Two Sorted Lists
+22. Generate Parentheses
+23. Merge k Sorted Lists
+026. Remove Duplicates from Sorted Array
+027. Remove Element
+29. Divide Two Integers
+31. Next Permutation
+32. Longest Valid Parentheses
+33. Search in Rotated Sorted Array
+34. Search for a Range
+035. Serach Insert Position
+36. Valid Sudoku
+038. Count and Say
+39. Combination Sum
+41. First Missing Positive
+42. Trapping Rain Water
+46. Permutations
+48. Rotate Image    
+49. Group Anagrams
+050. Pow(x, n)
+053. Maximum Subarray
+54. Spiral Matrix
+55. Jump Game
+56. Merge Intervals
+62. Unique Paths
+066. Plus One
+069. Sqrt(x)
+070. Climbing Stairs
+73. Set Matrix Zeroes
+75. Sort Colors
+76. Minimum Window Substring
+78. Subsets
+79. Word Search
+84. Largest Rectangle in Histogram
+088. Merge Sorted Array
+91. Decode Ways
+94. Binary Tree Inorder Traversal
+98. Validate Binary Search Tree 
 *
-- 101 Symmetric Tree
-- 102 Binary Tree Level Order Traversal
-- 103 Binary Tree Zigzag Level Order Traversal
-- 104 Maximum Depth of Binary Tree
-- 105 Construct Binary Tree from Preorder and Inorder Traversal
-- 108 Convert Sorted Array to Binary Search Tree
-
-- 116 Populating Next Right Pointers in Each Node
-- 118 Pascal's Triangle 
-- 121 Best Time to Buy and Sell Stock
-- 122 Best Time to Buy and Sell Stock II
-- 124 Binary Tree Maximum Path Sum
-- 125 Valid Palindrome
-- 127 Word Ladder   // NF
-- 130 Surrounded Regions
-- 131 Palindrome Partitioning
-- 134 Gas Station
-- 138 Copy List with Random Pointer // NF
-- 139 Word Break
-- 141 Linked List Cycle
-- 148 Sort List
-- 155 Min Stack
-- 160 Intersection of Two Linked Lists
-- 169 Majority Element
-- 171 Excel Sheet Column Number
-- 172 Factorial Trailing Zeroes
-- 189 Rotate Array
-- 190 Reverse Bits
-- 191 Number of 1 Bits
-- 198 House Robber
+101. Symmetric Tree
+102. Binary Tree Level Order Traversal
+103. Binary Tree Zigzag Level Order Traversal
+104. Maximum Depth of Binary Tree
+105. Construct Binary Tree from Preorder and Inorder Traversal
+108. Convert Sorted Array to Binary Search Tree
+116. Populating Next Right Pointers in Each Node
+118. Pascal's Triangle 
+121. Best Time to Buy and Sell Stock
+122. Best Time to Buy and Sell Stock II
+125. Valid Palindrome
+127. Word Ladder   // NF
+130. Surrounded Regions
+131. Palindrome Partitioning
+134. Gas Station
+138. Copy List with Random Pointer // NF
+139. Word Break
+141. Linked List Cycle
+148. Sort List
+155. Min Stack
+160. Intersection of Two Linked Lists
+169. Majority Element
+171. Excel Sheet Column Number
+172. Factorial Trailing Zeroes
+189. Rotate Array
+190. Reverse Bits
+191. Number of 1 Bits
+198. House Robber
 *
-- 202 Happy Number
-- 204 Count Primes
-- 206 Reverse Linked List
-- 217 Contains Duplicate
-- 226 Invert Binary Tree
-- 234 Palindrome Linked List
-- 237 Delete Node in a Linked List
-- 242 Valid Anagram
-- 268 Missing Number
-- 283 Move Zeroes
+202. Happy Number
+204. Count Primes
+206. Reverse Linked List
+217. Contains Duplicate
+226. Invert Binary Tree
+234. Palindrome Linked List
+237. Delete Node in a Linked List
+242. Valid Anagram
+268. Missing Number
+283. Move Zeroes
 *
-- 326 Power of Three
-- 338 Counting Bits
-- 344 Reverse String
-- 350 Intersection of Two Arrays II
-- 371 Sum of Two Integers
-- 387 First Unique Character in a String
+326. Power of Three
+338. Counting Bits
+344. Reverse String
+350. Intersection of Two Arrays II
+371. Sum of Two Integers
+387. First Unique Character in a String
 *
-- 412 Fizz Buzz
-- 461 HammingDistance
-- 476 Number Complement
+412. Fizz Buzz
+461. HammingDistance
+476. Number Complement
 *
-- 500 Keyboard Row
-- 557 Reverse Words in a String III
-- 561 Array Partition I
+500. Keyboard Row
+557. Reverse Words in a String III
+561. Array Partition I
 *
-- 617 Merge Two Binary Trees
-- 657 Judge Route Circle
-- 669 Trim a Binary Search Tree
-- 682 Baseball Game
+617. Merge Two Binary Trees
+657. Judge Route Circle
+669. Trim a Binary Search Tree
+682. Baseball Game
 *
-- 728 Self Dividing Numbers
-- 760 Find Anagram Mappings
-- 766 Toeplitz Matrix 
-- 771 Jewels and Stones
+728. Self Dividing Numbers
+760. Find Anagram Mappings
+766. Toeplitz Matrix 
+771. Jewels and Stones
 
 #
 #### MyJava
