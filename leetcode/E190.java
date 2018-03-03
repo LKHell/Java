@@ -28,17 +28,17 @@ public class Solution {
 //  First step, interchange 1234 with 5678 -> 56781234
 //  Second step, interchange 56~~12~~ with ~~78~~34-> 78563412
 //  Last step, interchange 7~5~3~1~ with ~8~6~4~2 ->87654321
-public int reverseBits(int n) {
-  int ret=n;                                                // 12345678
-  ret = ret >>> 16 | ret<<16;                               // 5678 1234
-  ret = (ret & 0xff00ff00) >>> 8 | (ret & 0x00ff00ff) << 8; // 7856 3412
-  ret = (ret & 0xf0f0f0f0) >>> 4 | (ret & 0x0f0f0f0f) << 4; // 
-  ret = (ret & 0xcccccccc) >>> 2 | (ret & 0x33333333) << 2;
-  ret = (ret & 0xaaaaaaaa) >>> 1 | (ret & 0x55555555) << 1;
-  return ret;
+public class Solution {
+  public int reverseBits(int n) {
+    int ret=n;                                                // 12345678
+    ret = ret >>> 16 | ret<<16;                               // 5678 1234
+    ret = (ret & 0xff00ff00) >>> 8 | (ret & 0x00ff00ff) << 8; // 7856 3412
+    ret = (ret & 0xf0f0f0f0) >>> 4 | (ret & 0x0f0f0f0f) << 4; // 
+    ret = (ret & 0xcccccccc) >>> 2 | (ret & 0x33333333) << 2;
+    ret = (ret & 0xaaaaaaaa) >>> 1 | (ret & 0x55555555) << 1;
+    return ret;
+  }
 }
-
-
 
 //  12345678
 // = 0000 0000 1011 1100 0110 0001 0100 1110 
