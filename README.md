@@ -91,6 +91,7 @@
 - 202 Happy Number
 - 204 Count Primes
 - 206 Reverse Linked List
+- 207 Course Schedule
 - 217 Contains Duplicate
 - 226 Invert Binary Tree
 - 234 Palindrome Linked List
