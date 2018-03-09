@@ -2,11 +2,14 @@
 
 
 ## leetcode 
+RW_num = review_times  
+NF = not finish   
 - 001 Two Sum //Rw_1
 - 002 Add Two Numbers //Rw_1
 - 003 Longest Substring Without Repeating Characters // Rw_1
 - 004 Median of Two Sorted Arrays // Rw_1
 - 005 Longest Palindromic Substring //Rw_1
+- 006 ZigZag Conversion //NF
 - 007 Reverse Integer
 - 008 String to Integer (atoi)
 - 009 Palindrome Number
@@ -17,6 +20,7 @@
 - 014 Longest Common Prefix
 - 015 3Sum
 - 017 Letter Combinations of a Phone Number
+- 018 4Sum
 - 019 Remove Nth Node From End of List
 - 020 Valid Parentheses
 - 021 Merge Two Sorted Lists

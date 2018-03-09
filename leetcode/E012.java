@@ -20,7 +20,8 @@ class Solution {
                     "V","VI","VII","VIII","IX"};
       // (num % 10) 
       
-      String res = new StringBuilder().append(m[num/1000]).append(c[(num % 1000) / 100]).append(x[(num %100) / 10]).append(i[(num % 10) ]).toString();
+      String res = new StringBuilder().append(m[num/1000]).append(c[(num % 1000) / 100]).
+                            append(x[(num %100) / 10]).append(i[(num % 10) ]).toString();
       
       return res;
   }
