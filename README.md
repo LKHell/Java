@@ -121,9 +121,11 @@ NF = not finish
 - 561 Array Partition I
 *
 - 617 Merge Two Binary Trees
+- 654 Maximum Binary Tree
 - 657 Judge Route Circle
 - 669 Trim a Binary Search Tree
 - 682 Baseball Game
+
 *
 - 728 Self Dividing Numbers
 - 760 Find Anagram Mappings
