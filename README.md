@@ -117,6 +117,7 @@ NF = not finish
 - 476 Number Complement
 *
 - 500 Keyboard Row
+- 535 Encode and Decode TinyURL // NF
 - 557 Reverse Words in a String III
 - 561 Array Partition I
 *
