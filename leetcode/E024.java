@@ -40,3 +40,4 @@ class Solution {
       nextNode.next = head;
       return nextNode;
   }
+}
