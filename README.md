@@ -27,6 +27,7 @@ NF = not finish
 - 021 Merge Two Sorted Lists
 - 022 Generate Parentheses
 - 023 Merge k Sorted Lists
+- 024 Swap Nodes in Pairs
 - 026 Remove Duplicates from Sorted Array
 - 027 Remove Element
 - 029 Divide Two Integers
