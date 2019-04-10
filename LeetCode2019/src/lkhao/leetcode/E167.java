@@ -31,15 +31,15 @@ public class E167 {
             int right = numbers.length - 1;
             int[] ans = {-1, -1};
             while (left < right) {
-                int sum=numbers[left]+numbers[right];
+                int sum = numbers[left] + numbers[right];
                 if (sum == target) {
-                    ans[0] = left+1;
-                    ans[1] = right+1;
+                    ans[0] = left + 1;
+                    ans[1] = right + 1;
                     
                     return ans;
-                }else if(sum>target) {
+                } else if (sum > target) {
                     right--;
-                }else {
+                } else {
                     left++;
                 }
             }
