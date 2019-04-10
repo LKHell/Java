@@ -15,9 +15,9 @@ Explanation: 342 + 465 = 807.
 /**
  * Definition for singly-linked list.
  * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode(int x) { val = x; }
+ * int val;
+ * ListNode next;
+ * ListNode(int x) { val = x; }
  * }
  */
 
@@ -25,31 +25,30 @@ Explanation: 342 + 465 = 807.
 class Solution {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode prev = new ListNode(0);
-        ListNode p=l1, q=l2, curr=prev;
+        ListNode p = l1, q = l2, curr = prev;
         int carry = 0;
-        while(p != null|| q != null) {
+        while (p != null || q != null) {
             int x = (p != null) ? p.val : 0;
             int y = (q != null) ? q.val : 0;
             int sum = carry + x + y;
-            if(sum > 9) {
-                sum = sum-10;
+            if (sum > 9) {
+                sum = sum - 10;
                 carry = 1;
             } else {
                 carry = 0;
             }
             
-            curr.next = new ListNode(sum) ;
+            curr.next = new ListNode(sum);
             curr = curr.next;
-            if(p != null) p=p.next;
-            if(q != null) q=q.next;
+            if (p != null) { p = p.next; }
+            if (q != null) { q = q.next; }
         }
         if (carry > 0) {
-            curr.next=new ListNode(carry);
+            curr.next = new ListNode(carry);
         }
         return prev.next;
     }
 }
-
 
 // 64ms
 public class Solution {
@@ -72,8 +71,7 @@ public class Solution {
             d.next = new ListNode(sum % 10);
             d = d.next;
         }
-        if (sum / 10 == 1)
-            d.next = new ListNode(1);
+        if (sum / 10 == 1) { d.next = new ListNode(1); }
         return sentinel.next;
     }
 }
@@ -81,16 +79,14 @@ public class Solution {
 // 48ms
 class Solution {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-        if (l1 == null && l2 == null)
-            return null;
+        if (l1 == null && l2 == null) { return null; }
         
-
         ListNode sum_head = null;
         ListNode sum_tail = null;
         
         int carry = 0;
         
-        while (l1 !=null && l2!=null) {
+        while (l1 != null && l2 != null) {
             int s = l1.val + l2.val + carry;
             carry = s / 10;
             int value = s % 10;
@@ -110,12 +106,11 @@ class Solution {
         ListNode longest = null;
         if (l1 != null) {
             longest = l1;
-        }
-        else if (l2!= null) {
+        } else if (l2 != null) {
             longest = l2;
-        } 
-
-        while (longest !=null) {
+        }
+        
+        while (longest != null) {
             int s = longest.val + carry;
             carry = s / 10;
             int value = s % 10;
@@ -131,10 +126,10 @@ class Solution {
             longest = longest.next;
         }
         
-            if (carry != 0) {
-                sum_tail.next = new ListNode(carry);
-                return sum_head;
-            }
+        if (carry != 0) {
+            sum_tail.next = new ListNode(carry);
+            return sum_head;
+        }
         
         return sum_head;
     }
