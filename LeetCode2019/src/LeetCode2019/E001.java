@@ -40,8 +40,9 @@ public class E001 {
                 throw new IllegalArgumentException("No two Sum solution");
             }
             
-            Map<Integer, Integer> resultMap = new HashMap<>();
             int len = nums.length;
+            //注意HashMap 大小
+            Map<Integer, Integer> resultMap = new HashMap<>(len);
             
             for (int i = 0; i < len; i++) {
                 if (resultMap.containsKey(nums[i])) {
@@ -51,6 +52,21 @@ public class E001 {
             }
             
             return new int[] {-1, -1};
+        }
+    }
+    
+    private class Solution2 {
+        
+        public int[] twoSum(int[] nums, int target) {
+            HashMap<Integer, Integer> map = new HashMap<>(nums.length);
+            for (int i = 0; i < nums.length; i++) {
+                int num = target - nums[i];
+                if (map.containsKey(num)) {
+                    return new int[] {map.get(num), i};
+                }
+                map.put(nums[i], i);
+            }
+            return null;
         }
     }
 }
