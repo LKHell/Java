@@ -1,4 +1,4 @@
-package LeetCode2019;
+package lkhao.leetcode;
 
 import java.util.HashMap;
 import java.util.Map;

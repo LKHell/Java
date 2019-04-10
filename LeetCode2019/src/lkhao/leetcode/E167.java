@@ -1,4 +1,4 @@
-package LeetCode2019;
+package lkhao.leetcode;
 
 /**
  * describe:
