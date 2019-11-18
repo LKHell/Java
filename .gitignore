@@ -62,7 +62,7 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-
+target/
 ### IntelliJ IDEA ###
 .idea
 *.iws

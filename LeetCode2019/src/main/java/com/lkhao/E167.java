@@ -1,4 +1,4 @@
-package lkhao.leetcode;
+package com.lkhao;
 
 /**
  * describe:

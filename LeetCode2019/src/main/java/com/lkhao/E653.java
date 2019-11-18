@@ -1,4 +1,4 @@
-package lkhao.leetcode;
+package com.lkhao;
 
 import javax.swing.tree.TreeNode;
 import java.util.HashSet;
