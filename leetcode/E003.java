@@ -57,10 +57,11 @@ class Solution {
       int cur_len = 1;
       for(int i=1;i<chars.length;i++){
           int j = split_at;
-          for(;j<i;j++){
-              if(chars[i] == chars[j]){
+          while (j<i) {
+              if (chars[i] == chars[j]) {
                   break;
               }
+              j++;
           }
           if(j < i){
               split_at = j+1;
